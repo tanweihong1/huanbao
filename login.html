@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>登录</title>
+  <link href="css/zhuce.css" rel="stylesheet"/>
+ </head>
+ <body>
+	<div class="container">
+		<div class="reg-box">
+			<div class="reg-main">
+				<h3>登录</h3>
+				<form action="index.html" method="post" class="reg-form">
+					<div class="reg-input">
+						<label><i>*</i>账号：</label>
+						<input type="text" id="uName" required placeholder="手机号或邮箱"   />
+					</div>
+					<div class="reg-input">
+						<label><i>*</i>密码：</label>
+						<input type="password" id="pwd" required  placeholder="长度为6-16个字符" pattern="[a-zA-Z0-9]{6,16}"/>
+					</div>
+					<div class="submit-box">
+						<input type="submit" id="submit" value="立即登录" >
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+ </body>
+</html>
